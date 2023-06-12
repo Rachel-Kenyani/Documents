@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+}
+.firstpage{
+    margin: 0px;
+    background-image: url(/Images/blue.jpeg);
+    /* filter: brightness(45%); */
+    height: 23cm;
+    width: 1000cm;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* top: 0;
+    margin-top: 0;
+    padding-top: 0; */
+    position: relative; 
+}
+.nav{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:0%
+}
+.nav .logo img{
+    width: 20%;
+    height: 5cm;
+}
+.nav .menu ul li{
+    display: flex;
+    list-style-type: none;
+}
+.menu ul li a{
+    padding: 0 2em 0 0;
+    color: black; 
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu a:hover{
+    color: #16ff01;
+}
+.menu .active{
+    color: #16ff01;
+}

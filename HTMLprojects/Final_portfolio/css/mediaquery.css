@@ -1,0 +1,31 @@
+/* @media screen and (max-width: 768px) {
+    .sidenav {
+        width: 60px;
+    }
+    .sidenav a {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .bar{
+        margin:1px auto;
+        width: 30px;
+    }
+    .change .bar1, .change .bar2, .change .bar3 {
+        transform: rotate(0) translate(0);
+    }
+    .change .bar1 {
+        margin-top: 3px;
+    }
+    .change .bar3 {
+        margin-top: -3px;
+    }
+    .sidenav a:not(:first-child) {
+        display: none;
+    }
+    .sidenav a:first-child{
+        margin-top: 60px;
+    }
+    .sidenav a.active {
+        display: block;
+    }
+} */

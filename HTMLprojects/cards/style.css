@@ -1,0 +1,92 @@
+
+.products .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .products .box-container .box {
+    position: relative;
+    background: #F3EDD4;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 3rem;
+  }
+  
+  .products .box-container .box:hover .icons {
+    top: 0;
+  }
+  
+  .products .box-container .box .icons {
+    position: absolute;
+    top: -105%;
+    left: 0;
+    height: 30rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: rgba(243, 243, 243, 0.8);
+    gap: 1rem;
+  }
+  
+  .products .box-container .box .icons a {
+    font-size: 2rem;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    background: #F3EDD4;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    color: #8BC746
+  }
+  
+  .products .box-container .box .icons a:hover {
+    background:#8BC746;
+    color: #F3EDD4;
+  }
+  
+  .products .box-container .box .image {
+    height: 30rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  .products .box-container .box .imagee {
+    padding-top: 10vh;
+    overflow: hidden;
+  }
+  .products .box-container .box .image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  .products .box-container .box .content {
+    padding: 1.5rem;
+  }
+  
+  .products .box-container .box .content h3 {
+    font-size: 2rem;
+    color: #021A08;
+  }
+  
+  .products .box-container .box .content .price {
+    font-size: 2rem;
+    color: #666;
+    padding: 1rem 0;
+  }
+  
+  .products .box-container .box .content .stars i {
+    font-size: 1.7rem;
+    color: #8BC746;
+  }
+  
